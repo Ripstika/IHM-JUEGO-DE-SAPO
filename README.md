@@ -185,7 +185,7 @@ Sistema web funcional para gestionar partidas del juego tradicional de Sapo dura
 
 ---
 
-## ✨ Características Destacadas
+## Características Destacadas
 
 ### Funcionalidad Completa:
 ✅ Gestión de equipos (crear, guardar, cargar)  
