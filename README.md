@@ -1,17 +1,17 @@
-# 📖 Manual de Usuario - Sistema de Gestión de Partidas del Juego de Sapo
+# Manual de Usuario - Sistema de Gestión de Partidas del Juego de Sapo
 
-## 🎯 Descripción
+## Descripción
 Sistema web funcional para gestionar partidas del juego tradicional de Sapo durante eventos universitarios como Recreate U y las Fiestas Marianas.
 
-## 🎨 Paleta de Colores
+## Paleta de Colores
 - **Verde** (#059669, #047857, #065f46): Elementos principales, botones y acentos
 - **Dorado** (#D97706, #F59E0B, #FBBF24): Elementos destacados, trofeos y ganadores
 - **Blanco** (#FFFFFF): Fondos y contenido
 - **Negro** (#000000, #1F2937, #111827): Textos y navegación
 
-## 📱 Pantallas del Sistema
+## Pantallas del Sistema
 
-### 1️⃣ Menú Principal
+### 1️ Menú Principal
 **Función:** Punto de partida del sistema con acceso a todas las funcionalidades.
 
 **Características:**
@@ -29,7 +29,7 @@ Sistema web funcional para gestionar partidas del juego tradicional de Sapo dura
 
 ---
 
-### 2️⃣ Definir Rondas
+### Definir Rondas
 **Función:** Configurar el número de rondas de la partida.
 
 **Cómo usar:**
@@ -44,7 +44,7 @@ Sistema web funcional para gestionar partidas del juego tradicional de Sapo dura
 
 ---
 
-### 3️⃣ Registrar Equipo
+### Registrar Equipo
 **Función:** Crear nuevos equipos participantes.
 
 **Cómo usar:**
@@ -63,7 +63,7 @@ Sistema web funcional para gestionar partidas del juego tradicional de Sapo dura
 
 ---
 
-### 4️⃣ Cargar Equipos
+### Cargar Equipos
 **Función:** Seleccionar equipos previamente guardados para la partida actual.
 
 **Cómo usar:**
@@ -84,7 +84,7 @@ Sistema web funcional para gestionar partidas del juego tradicional de Sapo dura
 
 ---
 
-### 5️⃣ Registrar Puntajes
+### Registrar Puntajes
 **Función:** Ingresar los puntajes obtenidos por cada equipo en cada ronda.
 
 **Cómo usar:**
@@ -105,7 +105,7 @@ Sistema web funcional para gestionar partidas del juego tradicional de Sapo dura
 
 ---
 
-### 6️⃣ Mostrar Puntajes
+### Mostrar Puntajes
 **Función:** Visualizar tabla completa de puntajes por ronda y totales.
 
 **Características:**
@@ -127,7 +127,7 @@ Sistema web funcional para gestionar partidas del juego tradicional de Sapo dura
 
 ---
 
-### 7️⃣ Generar Reporte
+### Generar Reporte
 **Función:** Crear reporte final completo de la partida con toda la información.
 
 **Secciones del reporte:**
@@ -165,7 +165,7 @@ Sistema web funcional para gestionar partidas del juego tradicional de Sapo dura
 
 ---
 
-## 🔄 Flujo de Trabajo Recomendado
+## Flujo de Trabajo Recomendado
 
 ### Inicio de una nueva partida:
 1. **Definir Rondas** → Establece cuántas rondas se jugarán
@@ -213,7 +213,7 @@ Sistema web funcional para gestionar partidas del juego tradicional de Sapo dura
 
 ---
 
-## 🛠️ Tecnologías Utilizadas
+## Tecnologías Utilizadas
 
 - **React** con TypeScript
 - **Tailwind CSS** v4 para estilos
@@ -222,7 +222,7 @@ Sistema web funcional para gestionar partidas del juego tradicional de Sapo dura
 
 ---
 
-## 📋 Notas Importantes
+## Notas Importantes
 
 1. **Persistencia de datos:** Actualmente los datos se mantienen en la sesión. Al recargar la página, se perderán los equipos y puntajes registrados durante esa sesión.
 
@@ -237,7 +237,7 @@ Sistema web funcional para gestionar partidas del juego tradicional de Sapo dura
 
 ---
 
-## 🎓 Uso en Eventos Universitarios
+## Uso en Eventos Universitarios
 
 Este sistema está diseñado específicamente para:
 - **Recreate U**: Evento recreativo universitario
@@ -252,7 +252,7 @@ Este sistema está diseñado específicamente para:
 
 ---
 
-## 📞 Soporte
+## Soporte
 
 Para soporte técnico o consultas sobre el sistema, contacta al administrador del evento.
 
@@ -261,3 +261,4 @@ Para soporte técnico o consultas sobre el sistema, contacta al administrador de
 **Sistema de Gestión de Partidas - Juego de Sapo**  
 *Universidad Mariana - Pasto, Colombia*  
 *Versión 1.0 - 2026*
+*Desarrollado por © 2026 David Ssantiago Rosales Solarte. Reservados todos los derechos.*

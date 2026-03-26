@@ -1,0 +1,42 @@
+/* Animaciones personalizadas para el Sistema de Juego de Sapo */
+
+@keyframes slide-in {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fade-out {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.animate-slide-in {
+  animation: slide-in 0.3s ease-out;
+}
+
+/* Estilos para impresión del reporte */
+@media print {
+  body {
+    background: white;
+  }
+  
+  header,
+  button,
+  .no-print {
+    display: none !important;
+  }
+  
+  .print-section {
+    page-break-inside: avoid;
+  }
+}
