@@ -14,13 +14,6 @@ import {
 } from "../components/ui/card";
 import { Input } from "../components/ui/input";
 import { Label } from "../components/ui/label";
-import {
-  Select,
-  SelectContent,
-  SelectItem,
-  SelectTrigger,
-  SelectValue,
-} from "./ui/select";
 import { ArrowLeft, Target, Save, Users } from "lucide-react";
 import { Team } from "../types";
 
@@ -101,18 +94,18 @@ export default function ScoreRegistration({
                 <Label className="text-gray-900 text-lg">
                   Seleccionar Equipo
                 </Label>
-                <Select value={selectedTeam || undefined} onValueChange={setSelectedTeam}>
-                  <SelectTrigger className="h-12 border-2 border-green-300 focus:border-green-600">
-                    <SelectValue placeholder="Selecciona un equipo" />
-                  </SelectTrigger>
-                  <SelectContent position="item-aligned">
-                    {teams.map((team) => (
-                      <SelectItem key={team.id} value={team.id}>
-                        {team.name}
-                      </SelectItem>
-                    ))}
-                  </SelectContent>
-                </Select>
+                <select
+                  className="w-full h-12 rounded-md border-2 border-green-300 bg-white px-3 text-base text-gray-900 outline-none focus:border-green-600"
+                  value={selectedTeam}
+                  onChange={(e) => setSelectedTeam(e.target.value)}
+                >
+                  <option value="">Selecciona un equipo</option>
+                  {teams.map((team) => (
+                    <option key={team.id} value={team.id}>
+                      {team.name}
+                    </option>
+                  ))}
+                </select>
               </div>
 
               {/* SELECTOR DE RONDA */}
@@ -120,22 +113,18 @@ export default function ScoreRegistration({
                 <Label className="text-gray-900 text-lg">
                   Seleccionar Ronda
                 </Label>
-                <Select
-                  value={selectedRound || undefined}
-                  onValueChange={setSelectedRound}
+                <select
+                  className="w-full h-12 rounded-md border-2 border-green-300 bg-white px-3 text-base text-gray-900 outline-none focus:border-green-600"
+                  value={selectedRound}
+                  onChange={(e) => setSelectedRound(e.target.value)}
                 >
-                  <SelectTrigger className="h-12 border-2 border-green-300 focus:border-green-600">
-                    <SelectValue placeholder="Selecciona una ronda" />
-                  </SelectTrigger>
-                  <SelectContent position="item-aligned">
-                    {/* Generar opciones para cada ronda */}
-                    {[...Array(numRounds)].map((_, i) => (
-                      <SelectItem key={i + 1} value={String(i + 1)}>
-                        Ronda {i + 1}
-                      </SelectItem>
-                    ))}
-                  </SelectContent>
-                </Select>
+                  <option value="">Selecciona una ronda</option>
+                  {[...Array(numRounds)].map((_, i) => (
+                    <option key={i + 1} value={String(i + 1)}>
+                      Ronda {i + 1}
+                    </option>
+                  ))}
+                </select>
               </div>
 
               {/* ENTRADA DE PUNTAJE */}
