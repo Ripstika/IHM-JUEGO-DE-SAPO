@@ -1,15 +1,20 @@
-/**
- * PostCSS Configuration
- *
- * Tailwind CSS v4 (via @tailwindcss/vite) automatically sets up all required
- * PostCSS plugins — you do NOT need to include `tailwindcss` or `autoprefixer` here.
- *
- * This file only exists for adding additional PostCSS plugins, if needed.
- * For example:
- *
- * import postcssNested from 'postcss-nested'
- * export default { plugins: [postcssNested()] }
- *
- * Otherwise, you can leave this file empty.
- */
+// ==========================================
+// ARCHIVO: postcss.config.mjs
+// PROPÓSITO: Configuración de PostCSS para procesamiento de estilos
+// DESCRIPCIÓN: Define los plugins de PostCSS
+
+// NOTA IMPORTANTE: Tailwind CSS v4 (mediante @tailwindcss/vite) 
+// configura automáticamente todos los plugins de PostCSS requeridos
+// NO necesitas incluir 'tailwindcss' o 'autoprefixer' aquí.
+
+// Este archivo existe principalmente para agregar plugins de PostCSS adicionales si es necesario.
+// Por ejemplo, para agregar un plugin anidado:
+// 
+// import postcssNested from 'postcss-nested'
+// export default { plugins: [postcssNested()] }
+//
+// Si no necesitas plugins adicionales, puedes dejar este archivo vacío como está ahora.
+// ==========================================
+
+// Exportar un objeto vacío porque todos los plugins necesarios se configuran automáticamente
 export default {}

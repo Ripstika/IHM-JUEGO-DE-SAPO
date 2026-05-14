@@ -1,41 +1,75 @@
-/* Animaciones personalizadas para el Sistema de Juego de Sapo */
+/* ==========================================
+   ARCHIVO: custom.css
+   PROPÓSITO: Estilos personalizados y animaciones de la aplicación
+   DESCRIPCIÓN: Define animaciones y estilos específicos para el Sistema de Juego de Sapo
+   ========================================== */
 
+/* ========== ANIMACIONES PERSONALIZADAS ========== */
+
+/**
+ * Animación: slide-in
+ * Efecto de entrada desde la derecha hacia la izquierda
+ * Duración: 0.3s
+ */
 @keyframes slide-in {
   from {
+    /* Comenzar fuera de vista a la derecha */
     transform: translateX(100%);
+    /* Invisible al principio */
     opacity: 0;
   }
   to {
+    /* Terminar en posición normal */
     transform: translateX(0);
+    /* Visible al final */
     opacity: 1;
   }
 }
 
+/**
+ * Animación: fade-out
+ * Efecto de desvanecimiento/fade out
+ * Duración: Depende de donde se use
+ */
 @keyframes fade-out {
   from {
+    /* Visible al principio */
     opacity: 1;
   }
   to {
+    /* Invisible al final */
     opacity: 0;
   }
 }
 
+/**
+ * Clase utilitaria para aplicar la animación slide-in
+ * Uso: <element className="animate-slide-in">
+ */
 .animate-slide-in {
   animation: slide-in 0.3s ease-out;
 }
 
-/* Estilos para impresión del reporte */
+/* ========== ESTILOS DE IMPRESIÓN ========== */
+
+/**
+ * Media query para estilos cuando se imprime la página (Ctrl+P)
+ * Específicamente para el reporte final del juego
+ */
 @media print {
+  /* Fondo blanco para impresión */
   body {
     background: white;
   }
   
+  /* Ocultar elementos que no son relevantes en la impresión */
   header,
   button,
   .no-print {
     display: none !important;
   }
   
+  /* Evitar que las secciones se corten entre páginas */
   .print-section {
     page-break-inside: avoid;
   }

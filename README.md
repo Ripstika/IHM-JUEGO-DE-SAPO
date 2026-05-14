@@ -1,7 +1,7 @@
 # Manual de Usuario - Sistema de Gestión de Partidas del Juego de Sapo
 
 ## Descripción
-Sistema web funcional para gestionar partidas del juego tradicional de Sapo durante eventos universitarios como Recreate U y las Fiestas Marianas.
+Sistema web funcional para gestionar partidas del juego tradicional de Sapo durante eventos universitarios como Recreate en la U y las Fiestas Marianas.
 
 ## Paleta de Colores
 - **Verde** (#059669, #047857, #065f46): Elementos principales, botones y acentos
@@ -188,28 +188,28 @@ Sistema web funcional para gestionar partidas del juego tradicional de Sapo dura
 ## Características Destacadas
 
 ### Funcionalidad Completa:
-✅ Gestión de equipos (crear, guardar, cargar)  
-✅ Configuración de rondas  
-✅ Registro de puntajes por equipo y ronda  
-✅ Cálculo automático de totales  
-✅ Ordenamiento automático por puntuación  
-✅ Generación de reportes completos  
-✅ Función de impresión  
+ Gestión de equipos (crear, guardar, cargar)  
+ Configuración de rondas  
+ Registro de puntajes por equipo y ronda  
+ Cálculo automático de totales  
+ Ordenamiento automático por puntuación  
+ Generación de reportes completos  
+ Función de impresión  
 
 ### Experiencia de Usuario:
-✅ Navegación intuitiva  
-✅ Mensajes de confirmación visuales  
-✅ Validación de formularios  
-✅ Diseño responsive  
-✅ Feedback visual en tiempo real  
-✅ Botones deshabilitados cuando no aplican  
+ Navegación intuitiva  
+ Mensajes de confirmación visuales  
+ Validación de formularios  
+ Diseño responsive  
+ Feedback visual en tiempo real  
+ Botones deshabilitados cuando no aplican  
 
 ### Diseño Visual:
-✅ Paleta de colores verde, blanco, negro y dorado  
-✅ Iconografía clara y descriptiva  
-✅ Tarjetas interactivas con efectos hover  
-✅ Destacados especiales para ganadores  
-✅ Gradientes y sombras profesionales  
+ Paleta de colores verde, blanco, negro y dorado  
+ Iconografía clara y descriptiva  
+ Tarjetas interactivas con efectos hover  
+ Destacados especiales para ganadores  
+ Gradientes y sombras profesionales  
 
 ---
 
@@ -261,4 +261,4 @@ Para soporte técnico o consultas sobre el sistema, contacta al administrador de
 **Sistema de Gestión de Partidas - Juego de Sapo**  
 *Universidad Mariana - Pasto, Colombia*  
 *Versión 1.0 - 2026*
-*Desarrollado por © 2026 David Ssantiago Rosales Solarte. Reservados todos los derechos.*
+*Desarrollado por © 2026 David Santiago Rosales Solarte. Reservados todos los derechos.*

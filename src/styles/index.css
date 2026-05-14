@@ -1,4 +1,17 @@
+/* ==========================================
+   ARCHIVO: index.css
+   PROPÓSITO: Archivo CSS principal que importa todos los demás estilos
+   DESCRIPCIÓN: Punto de entrada para todos los estilos de la aplicación
+   ========================================== */
+
+/* Importar fuentes personalizadas */
 @import './fonts.css';
+
+/* Importar configuración de Tailwind CSS */
 @import './tailwind.css';
+
+/* Importar tema de colores personalizado */
 @import './theme.css';
+
+/* Importar estilos personalizados adicionales */
 @import './custom.css';
